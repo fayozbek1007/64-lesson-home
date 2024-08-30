@@ -12,6 +12,16 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      container: {
+        center: true,
+        screens: {
+          '2xl': '1200px', 
+        },
+      },
+      fontFamily: {
+        'inter': ['Inter', 'sans-serif'],
+        'cera-pro': ['Cera Pro', 'sans-serif'], // Qo‘shilgan shrift
+      },
     },
   },
   plugins: [],
