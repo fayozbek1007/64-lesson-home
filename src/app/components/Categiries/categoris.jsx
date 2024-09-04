@@ -11,15 +11,15 @@ const Categoris = () => {
                 </h1>
                 <ul>
                     {
-                        categores.map((item) => {
+                        categores.map((number) => {
                             return (
-                                <li key={item.id} className='flex w-[270px] justify-between mt-[15px]  transition-all duration-300  
+                                <li key={number.id} className='flex w-[270px] justify-between mt-[15px]  transition-all duration-300  
                                 hover:bg-green-400 p-2 rounded hover:text-[white]'>
                                     <p className='font-[400] text-[14px] text-[#3D3D3D] hover:text-[white] hover:font-[500]'>
-                                        {item.name}
+                                        {number.name}
                                     </p>
                                     <p className='font-[500] text-[15px] text-[#3D3D3D] hover:text-[white]'>
-                                        {item.number}
+                                        {number.number}
                                     </p>
                                 </li>
                             )

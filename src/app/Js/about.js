@@ -56,28 +56,28 @@ export const about = [{
 
 
 export const ourblog = [{
-        id: 1,
+        id: 10,
         title: "Cactus & Succulent Care Tips",
         description: "Cacti are succulents are easy care plants for any home or patio. ",
         data: "September 12  I Read in 6 minutes",
         img: "/gerbari10.svg"
     },
     {
-        id: 2,
+        id: 11,
         title: "Top 10 Succulents for Your Home",
         description: "Best in hanging baskets. Prefers medium to high light.",
         data: "September 13  I Read in 2 minutes",
         img: "/gerbari11.svg"
     },
     {
-        id: 3,
+        id: 12,
         title: "Cacti & Succulent Care Tips",
         description: "Cacti and succulents thrive in containers and because most are..",
         data: "September 12  I Read in 6 minutes",
         img: "/gerbari12.svg"
     },
     {
-        id: 1,
+        id: 13,
         title: "Best Houseplants  Room by Room",
         description: "The benefits of houseplants are endless. In addition to..",
         data: "September 15  I Read in 2 minutes",
@@ -86,7 +86,7 @@ export const ourblog = [{
 ]
 
 export const footermenu = [{
-        id: 1,
+        id: 14,
         title: "My Account",
         pone: "My Account",
         ptwo: "Our stores",
@@ -95,7 +95,7 @@ export const footermenu = [{
         pfive: "Specials",
     },
     {
-        id: 2,
+        id: 15,
         title: "Help & Guide",
         pone: "Help Center",
         ptwo: "How to Buy",
@@ -104,7 +104,7 @@ export const footermenu = [{
         pfive: "How to Return",
     },
     {
-        id: 3,
+        id: 16,
         title: "Categories",
         pone: "House Plants",
         ptwo: "Potter Plants",
@@ -115,31 +115,31 @@ export const footermenu = [{
 ]
 
 export const grbaries = [{
-        id: 1,
+        id: 17,
         name: "Beach Spider Lily",
         cost: "$129.00",
         img: "/allger1.svg"
     },
     {
-        id: 2,
+        id: 18,
         name: "Chinese Evergreen",
         cost: "$139.00",
         img: "/allger2.svg"
     },
     {
-        id: 3,
+        id: 19,
         name: "Blushing Bromeliad",
         cost: "$140.00",
         img: "/allger3.svg"
     },
     {
-        id: 4,
+        id: 20,
         name: "Aluminum Plant",
         cost: "$159.00",
         img: "/allger4.svg"
     },
     {
-        id: 5,
+        id: 21,
         name: "Bird's Nest Fern",
         cost: "$199.00",
         img: "/allger5.svg"
