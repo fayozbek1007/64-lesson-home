@@ -4,6 +4,7 @@ import Categoris from '../components/Categiries/categoris';
 import AllplabNets from '../Allcategories/Allplanets';
 import OurBlog from '../OurBlog/OurBlog';
 import Footer from '../components/Footer/Footer';
+import Image from 'next/image';
 
 const Welcome = () => {
     return (
@@ -25,8 +26,8 @@ const Welcome = () => {
                     </div>
                 </div>
                 <div className='relative w-[518px] h-[518px] flex items-center justify-center'>
-                    <img className='absolute w-[135px] h-[135px] top-[345px] left-0 z-[2]' src="/NavMin.svg" alt="NavMin" />
-                    <img className='absolute w-[518px] h-[518px] top-0 left-0' src="/NavHeight.svg" alt="NavHeight" />
+                    <Image className='absolute w-[135px] h-[135px] top-[345px] left-0 z-[2]' src="/NavMin.svg" alt="NavMin" />
+                    <Image className='absolute w-[518px] h-[518px] top-0 left-0' src="/NavHeight.svg" alt="NavHeight" />
                 </div>
             </div>
             <div className='flex justify-between'>

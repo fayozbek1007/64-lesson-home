@@ -3,13 +3,14 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FiPhoneCall } from "react-icons/fi";
 import { footermenu } from '@/app/Js/about';
+import Image from 'next/image';
 
 const Footer = () => {
     return (
         <div>
             <div className='flex justify-between items-center w-[1200px] h-[88px] bg-[#46A358]/[10%] px-[20px]'>
                 <div>
-                    <img src="/navbar.svg" alt="" />
+                    <Image src="/navbar.svg" alt="" />
                 </div>
                 <div className='flex items-center gap-[10px]'>
                     <FaLocationDot />
@@ -32,7 +33,7 @@ const Footer = () => {
                     {
                         footermenu.map((item) => {
                             return (
-                                <div className='w-[295px]'>
+                                <div key={item.id} className='w-[295px]'>
                                     <h1 className='font-[700] text-[18px] leading-[16px]'>{item.title}</h1>
                                     <p className='font-[400] text-[14px] leading-[30px]'>{item.pone}</p>
                                     <p className='font-[400] text-[14px] leading-[30px]'>{item.ptwo}</p>
@@ -48,24 +49,24 @@ const Footer = () => {
                     <h1 className='font-[700] text-[18px] leading-[16px]'>Social Media</h1>
                     <div className='flex mt-[10px] gap-[10px]'>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <img src="/Facebook.svg" alt="" />
+                            <Image src="/Facebook.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <img src="/Instagram.svg" alt="" />
+                            <Image src="/Instagram.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <img src="/Twitter.svg" alt="" />
+                            <Image src="/Twitter.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <img src="/Linkedin.svg" alt="" />
+                            <Image src="/Linkedin.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <img src="/Union.svg" alt="" />
+                            <Image src="/Union.svg" alt="" />
                         </div>
                     </div>
                     <div className='mt-[20px]'>
                         <h1 className='font-[700] text-[18px] leading-[16px]'>We accept</h1>
-                        <img className='w-[224px] h-[26px] mt-[20px]' src="/image 16.svg" alt="" />
+                        <Image className='w-[224px] h-[26px] mt-[20px]' src="/image 16.svg" alt="" />
                     </div>
                 </div>
             </div>
