@@ -97,9 +97,6 @@ const Page = () => {
                 <h2 className='font-[600] text-[16px] text-[#3D3D3D]'>Office:</h2>
                 <p className='font-[500] text-[15px] text-[#727272]'>The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground.</p>
             </div>
-            <div className='mt-[30px]'>
-                <Footer />
-            </div>
         </div>
     );
 }

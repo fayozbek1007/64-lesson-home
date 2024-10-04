@@ -15,7 +15,7 @@ const Page = () => {
                         grbaries.map((item) => {
                             return (
                                 <div key={item.id}>
-                                    <Image className='w-[219px] h-[255px]' src={item.img} alt="" />
+                                    <Image width={200} height={100} className='w-[219px] h-[255px]' src={item.img} alt="" />
                                     <div>
                                         <h3 className='font-[400] text-[14px] text-[#3D3D3D]'>{item.name}</h3>
                                         <p className='font-[500] text-[15px] text-[#3D3D3D]'>{item.cost}</p>
@@ -30,7 +30,6 @@ const Page = () => {
                 <Categoris />
                 <AllplabNets />
             </div>
-            <Footer />
         </div>
     );
 }

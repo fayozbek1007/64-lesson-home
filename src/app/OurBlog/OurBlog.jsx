@@ -18,7 +18,7 @@ const OurBlog = () => {
                 {ourblog.map((our) => (
                     <Link key={our.id} href={`/blog/${our.id}`} passHref>
                         <div>
-                            <Image className='w-[268px] h-[195.17px]' src={our.img} alt={our.title} />
+                            <Image width={268} height={195.17} className='w-[268px] h-[195.17px]' src={our.img} alt={our.title} />
                             <div className='w-[242px] h-[146px] p-[10px]'>
                                 <p className='font-[500] text-[14px] text-[#46A358]'>{our.data}</p>
                                 <p className='font-[700] text-[20px] leading-[26px] text-[#3D3D3D] my-[5px]'>{our.title}</p>

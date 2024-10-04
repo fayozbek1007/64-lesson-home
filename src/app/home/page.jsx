@@ -26,8 +26,8 @@ const Welcome = () => {
                     </div>
                 </div>
                 <div className='relative w-[518px] h-[518px] flex items-center justify-center'>
-                    <Image className='absolute w-[135px] h-[135px] top-[345px] left-0 z-[2]' src="/NavMin.svg" alt="NavMin" />
-                    <Image className='absolute w-[518px] h-[518px] top-0 left-0' src="/NavHeight.svg" alt="NavHeight" />
+                    <Image  width={135} height={135} className='absolute w-[135px] h-[135px] top-[345px] left-0 z-[2]' src="/NavMin.svg" alt="NavMin" />
+                    <Image  width={135} height={135} className='absolute w-[518px] h-[518px] top-0 left-0' src="/NavHeight.svg" alt="NavHeight" />
                 </div>
             </div>
             <div className='flex justify-between'>
@@ -35,9 +35,6 @@ const Welcome = () => {
                 <AllplabNets />
             </div>
             <OurBlog />
-            <div className='mt-[40px]'>
-                <Footer />
-            </div>
         </div>
     );
 }

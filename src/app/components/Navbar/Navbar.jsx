@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className='cons- h-[53px] w-[1200px] flex items-center justify-between border-b-[1px] border-b-green-300 fixed bg-white top-0 left-0 right-0 mx-auto my-0 z-[10]'>
             <Link href={'/home'}>
                 <div className='cons_hegitimg'>
-                    <Image className='w-[150px] h-[34.3px]' src='/navbar.svg' alt="Navbar" />
+                    <Image width={150} height={34.3} className='w-[150px] h-[34.3px]' src='/navbar.svg' alt="Navbar" />
                 </div>
             </Link>
             <div className='cons_menu'>
@@ -32,8 +32,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='cons_left flex items-center gap-[30px] cons_left'>
-                <Image className='w-[20px] h-[20px]' src='/search.svg' alt="search" />
-                <Image className='w-[29px] h-[24px]' src='/shop.svg' alt="shop" />
+                <Image width={20} height={20} className='w-[20px] h-[20px]' src='/search.svg' alt="search" />
+                <Image  width={29} height={24} className='w-[29px] h-[24px]' src='/shop.svg' alt="shop" />
                 <div className='flex w-[100px] h-[35px] rounded-[10px] bg-[#46A358] items-center gap-[10px]'>
                     <IoExit className='w-[20px] h-[20px] ml-[15px]' />
                     <p className='text-[16px] font-[500] leading-[20.11px] text-[#FFFFFF]'>Kirish</p>

@@ -24,15 +24,12 @@ const Page = () => {
                     </div>
                 </div>
                 <div className='relative w-[518px] h-[518px] flex items-center justify-center'>
-                    <Image className='absolute w-[135px] h-[135px] top-[345px] left-0 z-[2]' src="/NavMin.svg" alt="NavMin" />
-                    <Image className='absolute w-[518px] h-[518px] top-0 left-0' src="/NavHeight.svg" alt="NavHeight" />
+                    <Image width={135} height={135} className='absolute top-[345px] left-0 z-[2]' src="/NavMin.svg" alt="NavMin" />
+                    <Image width={518} height={518} className='absolute top-0 left-0' src="/NavHeight.svg" alt="NavHeight" />
                 </div>
             </div>
             <div className='mt-[50px]'>
                 <OurBlog />
-            </div>
-            <div className='mt-[30px]'>
-                <Footer />
             </div>
         </div>
     );

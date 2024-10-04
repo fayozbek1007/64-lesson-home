@@ -7,10 +7,10 @@ import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='mt-[40px] mb-[10px]'>
             <div className='flex justify-between items-center w-[1200px] h-[88px] bg-[#46A358]/[10%] px-[20px]'>
                 <div>
-                    <Image src="/navbar.svg" alt="" />
+                <Image layout="responsive" width={100} height={100} src="/navbar.svg" alt="" />
                 </div>
                 <div className='flex items-center gap-[10px]'>
                     <FaLocationDot />
@@ -28,7 +28,7 @@ const Footer = () => {
                     <p>+88 01911 717 490</p>
                 </div>
             </div>
-            <div className='flex mt-[30px]'>
+            <div className='flex mt-[30px] px-[10px]'>
                 <div className='flex'>
                     {
                         footermenu.map((item) => {
@@ -49,24 +49,24 @@ const Footer = () => {
                     <h1 className='font-[700] text-[18px] leading-[16px]'>Social Media</h1>
                     <div className='flex mt-[10px] gap-[10px]'>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <Image src="/Facebook.svg" alt="" />
+                            <Image width={30} height={30} className='w-[30px] h-[30px]' src="/Facebook.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <Image src="/Instagram.svg" alt="" />
+                            <Image width={30} height={30}  src="/Instagram.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <Image src="/Twitter.svg" alt="" />
+                            <Image  width={20} height={20}  src="/Twitter.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <Image src="/Linkedin.svg" alt="" />
+                            <Image  width={20} height={20}  src="/Linkedin.svg" alt="" />
                         </div>
                         <div className='py-[10px] px-[14px] border-[1px] border-green-400 rounded-[8px]'>
-                            <Image src="/Union.svg" alt="" />
+                            <Image width={20} height={20} src="/Union.svg" alt="" />
                         </div>
                     </div>
                     <div className='mt-[20px]'>
                         <h1 className='font-[700] text-[18px] leading-[16px]'>We accept</h1>
-                        <Image className='w-[224px] h-[26px] mt-[20px]' src="/image 16.svg" alt="" />
+                        <Image width={224} height={26} className='w-[224px] h-[26px] mt-[20px]' src="/image 16.svg" alt="" />
                     </div>
                 </div>
             </div>
